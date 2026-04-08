@@ -1,0 +1,10 @@
+The SQL MIN() Function
+The MIN() function returns the smallest value of the selected column.
+
+The MIN() function works with numeric, string, and date data types.
+
+MIN() ExampleGet your own SQL Server
+Return the lowest price in the Price column, in the "Products" table:
+
+SELECT MIN(Price)
+FROM Products;
